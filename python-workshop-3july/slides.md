@@ -18,32 +18,15 @@ mdc: true
 ## From Fundamentals to Mastery
 
 <div class="flex items-center justify-center mt-8 mb-6">
-  <div class="text-center">
-    <img src="./public/pfp.jpg" alt="Tauqeer Ahmad" class="w-40 h-40 rounded-full mx-auto mb-4 border-4 border-white shadow-lg">
-    <div class="text-lg font-semibold">Tauqeer Ahmad</div>
-    <div class="text-sm opacity-75">Developer Operations Engineer</div>
-    <div class="text-sm opacity-75">Managing Production and Observability</div>
+  <div class="flex flex-col items-center bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20 shadow-xl">
+    <img src="./public/pfp.jpg" alt="Tauqeer Ahmad" class="w-24 h-24 rounded-xl object-cover border-3 border-white/30 shadow-lg mb-4">
+    <h3 class="text-xl font-bold text-white mb-1">Tauqeer Ahmad</h3>
+    <div class="bg-blue-500/80 px-3 py-1 rounded-full mb-1">
+      <span class="text-white text-sm font-medium">Developer Operations Engineer</span>
+    </div>
+    <p class="text-white/80 text-sm">Managing Production & Observability at NCR Atleos</p>
   </div>
 </div>
-
-<div class="pt-8">
-  <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover:bg="white hover:bg-opacity-10">
-    Let's start coding! <carbon:arrow-right class="inline"/>
-  </span>
-</div>
-
-<div class="abs-br m-6 flex gap-2">
-  <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
-    <carbon:edit />
-  </button>
-  <a href="https://github.com/python/cpython" target="_blank" title="Python on GitHub" class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
-    <carbon:logo-github />
-  </a>
-</div>
-
-<!--
-Welcome to our comprehensive Python workshop! Today we'll cover everything from basic syntax to advanced concepts like exception handling.
--->
 
 ---
 layout: default
