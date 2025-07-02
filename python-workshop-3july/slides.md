@@ -1,6 +1,6 @@
 ---
 theme: seriph
-background: https://images.unsplash.com/photo-1526379095098-d400fd0bf935?ixlib=rb-4.0.3&auto=format&fit=crop&w=2832&q=80
+background: https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-4.0.3&auto=format&fit=crop&w=2832&q=80
 title: Python Workshop - Fundamentals to Mastery
 info: |
   ## Python Workshop - July 3rd, 2024
