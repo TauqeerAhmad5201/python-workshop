@@ -17,7 +17,16 @@ mdc: true
 # Python Workshop 🐍
 ## From Fundamentals to Mastery
 
-<div class="pt-12">
+<div class="flex items-center justify-center mt-8 mb-6">
+  <div class="text-center">
+    <img src="./public/pfp.jpg" alt="Tauqeer Ahmad" class="w-40 h-40 rounded-full mx-auto mb-4 border-4 border-white shadow-lg">
+    <div class="text-lg font-semibold">Tauqeer Ahmad</div>
+    <div class="text-sm opacity-75">Developer Operations Engineer</div>
+    <div class="text-sm opacity-75">Managing Production and Observability</div>
+  </div>
+</div>
+
+<div class="pt-8">
   <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover:bg="white hover:bg-opacity-10">
     Let's start coding! <carbon:arrow-right class="inline"/>
   </span>
@@ -1181,7 +1190,7 @@ class: text-center
 </div>
 
 <div class="absolute bottom-6 left-6 text-sm opacity-50">
-  Python Workshop • July 3rd, 2024
+  Python Workshop • July 3rd, 2024 • Tauqeer Ahmad
 </div>
 
 <div class="absolute bottom-6 right-6 text-sm opacity-50">
