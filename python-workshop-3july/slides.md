@@ -17,7 +17,8 @@ mdc: true
 # Python Workshop 🐍
 ## From Fundamentals to Mastery
 
-<div class="flex items-center justify-center mt-8 mb-6">
+<div class="flex items-center justify-center gap-8 mt-8 mb-6">
+  <!-- Profile Card -->
   <div class="flex flex-col items-center bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20 shadow-xl">
     <img src="./public/pfp.jpg" alt="Tauqeer Ahmad" class="w-24 h-24 rounded-xl object-cover border-3 border-white/30 shadow-lg mb-4">
     <h3 class="text-xl font-bold text-white mb-1">Tauqeer Ahmad</h3>
@@ -25,6 +26,13 @@ mdc: true
       <span class="text-white text-sm font-medium">Developer Operations Engineer</span>
     </div>
     <p class="text-white/80 text-sm">Managing Production & Observability at NCR Atleos</p>
+  </div>
+  
+  <!-- Portfolio QR Code -->
+  <div class="flex flex-col items-center bg-white/10 backdrop-blur-lg rounded-2xl p-4 border border-white/20 shadow-xl">
+    <img src="./public/_tauqeerahmad.png" alt="Portfolio QR Code" class="w-32 h-32 rounded-lg bg-white p-2 shadow-lg mb-3">
+    <p class="text-white text-sm font-medium text-center">Scan for Portfolio</p>
+    <p class="text-white/70 text-xs">Connect with me!</p>
   </div>
 </div>
 
